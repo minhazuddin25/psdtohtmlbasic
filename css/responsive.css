@@ -1,0 +1,99 @@
+
+@media only screen and (min-width:992px) and (max-width: 1200px){
+    .container{
+        width: 970px; 
+        body{background-color: green;}
+    }
+    .menu {
+        width: 660px;
+    }
+
+    .single-service {
+        width: 290px;
+    }
+    .about-left {
+        width: 680px;
+        
+    }
+    .about-menu{
+        width: 255px;
+    }
+    .about-menu h4,
+    .about-left h4{
+        font-size: 25px;
+    }
+}
+
+
+@media only screen and(min-width:768px) and (max-width: 991){
+    .container{
+        width: 750px;
+    }
+    .logo{width: 180px}
+    .menu{
+        width: 500px;
+    }
+    .menu ul{
+        margin-top: 3px;
+    }
+    .menu ul li a{
+        padding: 10px;
+    }
+    .single-service{
+        width: 240px;
+        margin-right: 15px;
+    }
+    .single-service h4{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .about-left{
+        width: 540px;
+        margin-right: 20px;
+    }
+    .about-menu{
+        width: 190px;
+    }
+    .about-left h4, .about-menu h4{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 767px){
+    .container{
+        width: 320px
+    }
+    .menu{
+        width: 100%;
+    }
+    .menu ul{
+        text-align: left;
+        margin-top: 15px;
+    }
+    .menu ul li a{
+        font-size: 13px;
+        padding: 10px 5px;
+    }
+    .title h4 {
+        
+        font-size: 25px;
+        margin: 20px 0;
+    }
+    .single-service {
+        background-color: #e87809;
+        width: 100%;
+        margin-bottom: 30px;
+        color: #fff;
+    }
+    .about-left, .about-menu{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){}

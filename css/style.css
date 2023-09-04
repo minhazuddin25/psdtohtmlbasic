@@ -1,0 +1,280 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 14px;
+    line-height: 22px;
+}
+.fix::after,
+.fix::before{
+    content: "";
+    clear: both;
+    display: table;
+}
+.btn{
+    background-color: tomato;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: 3s;
+}
+.btn:hover{
+    background-color: #af4e3d;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* header css start */
+.header{
+    background-color: #ddd;
+    padding: 20px 15px;
+}
+.logo{
+float: left;
+width: 250px;
+margin-right: 30px;
+}
+.logo a{}
+.logo img{}
+.menu{
+    float: right;
+    width: 680px;
+}
+.menu ul{
+    text-align: right;
+    margin-top: 20px;
+}
+.menu ul li{
+    display: inline-block ;
+}
+.menu ul li a{
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: tahoma;
+    transition: 2s;
+}
+.menu ul li a:hover{
+    background-color: tomato;
+    color: #fff;
+    border-radius: 50%;
+}
+/* header css end */
+
+/* Service css start */
+.services{}
+.title{
+   
+}
+.title h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 30px 0;
+}
+.service{}
+.single-service{
+    background-color: #2980b9;
+    width: 300px;
+    margin-right: 10px;
+    float: left;
+    padding: 10px;
+
+}
+.single-service:last-child{
+    margin-right: 0;
+}
+.single-service h4{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: #fff;
+    
+}
+.single-service img{}
+.single-service a{}
+/* Service css end */
+/* about css start */
+.about{ 
+    padding: 60px 0;
+}
+.about-left{
+float: left;
+width: 700px;
+margin-right: 30px;
+}
+.about-left h4,
+.about-menu h4
+{
+    text-transform: capitalize;
+    font-size: 35px;
+    margin-bottom: 18px;
+}
+.about-left p{}
+.about-left a{}
+/* about menu scc */
+.about-menu{
+    float: right;
+    width: 270px;
+}
+
+.about-menu ul{}
+.about-menu ul li{
+    background-image: url(img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 25px;
+}
+.about-menu ul li a{
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+
+}
+
+/* about css end */
+
+
+.footer{
+    background-color: #DDD;
+    height: 50px;
+
+}
+.footer p{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+/* page-banner */
+.pag-banner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 80px 0;
+    z-index: 2;
+}
+.pag-banner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #333;
+    opacity: .70;
+    z-index: -1;
+}
+.pag-banner h2{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+
+
+}
+
+/* gallery css */
+.gallerys{}
+.gallery{}
+.single-gallery{
+    float: left;
+    width: 220px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.single-gallery:nth-child(4), .single-gallery:nth-child(8){
+    margin-right: 0;
+}
+.single-gallery iframe{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 3px;
+
+}
+/* gallery css */
+
+/* Contact css */
+.contact{padding: 40px 0;}
+.contact-form{
+    width: 670px;
+    float: left;
+    margin-right: 30px;
+}
+.contact-form h4, .contact-address h4{
+    text-transform: capitalize;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.contact-form form{}
+.contact-form input{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.contact-form textarea{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.contact-form input[type="submit"]{
+    background-color: tomato;
+    border: 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    width: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: .3s;
+}
+.contact-form input[type="submit"]:hover{
+    background-color: #ff7720;
+}
+.contact-address{
+    float: right;
+    width: 300px;
+}
+.contact-address ul{}
+.contact-address ul li{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.contact-address ul li span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.map{
+    margin-bottom: 30px;
+}
+.map iframe{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 3px;
+    height: 300px;
+}
+/* Contact css */
